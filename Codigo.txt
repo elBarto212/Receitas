@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Receitas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #ff6347;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .receita {
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .receita h2 {
+            color: #ff6347;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #ff6347;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Blog de Receitas Deliciosas</h1>
+    </header>
+    <div class="container">
+        <div class="receita">
+            <h2>Bolo de Cenoura</h2>
+            <p>Um bolo fofinho e delicioso para o café da tarde.</p>
+            <p><strong>Ingredientes:</strong> Cenoura, ovos, açúcar, farinha, fermento.</p>
+            <p><strong>Modo de preparo:</strong> Bata tudo no liquidificador e asse por 40 minutos.</p>
+        </div>
+        <div class="receita">
+            <h2>Macarrão ao Molho Branco</h2>
+            <p>Uma receita cremosa e fácil de fazer.</p>
+            <p><strong>Ingredientes:</strong> Macarrão, creme de leite, queijo parmesão, alho, manteiga.</p>
+            <p><strong>Modo de preparo:</strong> Cozinhe o macarrão e misture com o molho feito na panela.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Blog de Receitas</p>
+    </footer>
+</body>
+</html>
